@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2A58F6BE22625B730093FD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A58F6BD22625B730093FD76 /* AppDelegate.swift */; };
-		2A58F6C022625B730093FD76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A58F6BF22625B730093FD76 /* ViewController.swift */; };
 		2A58F6C322625B730093FD76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A58F6C122625B730093FD76 /* Main.storyboard */; };
 		2A58F6C522625B750093FD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A58F6C422625B750093FD76 /* Assets.xcassets */; };
 		2A58F6C822625B750093FD76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A58F6C622625B750093FD76 /* LaunchScreen.storyboard */; };
 		2A58F6D322625B750093FD76 /* flix_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A58F6D222625B750093FD76 /* flix_appTests.swift */; };
 		2A58F6DE22625B760093FD76 /* flix_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A58F6DD22625B760093FD76 /* flix_appUITests.swift */; };
+		2A58F6EC22625E220093FD76 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A58F6EB22625E220093FD76 /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		2A58F6BA22625B730093FD76 /* flix_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A58F6BD22625B730093FD76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A58F6BF22625B730093FD76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A58F6C222625B730093FD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A58F6C422625B750093FD76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A58F6C722625B750093FD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		2A58F6D922625B750093FD76 /* flix_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flix_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A58F6DD22625B760093FD76 /* flix_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flix_appUITests.swift; sourceTree = "<group>"; };
 		2A58F6DF22625B760093FD76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A58F6EB22625E220093FD76 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				2A58F6BD22625B730093FD76 /* AppDelegate.swift */,
-				2A58F6BF22625B730093FD76 /* ViewController.swift */,
 				2A58F6C122625B730093FD76 /* Main.storyboard */,
 				2A58F6C422625B750093FD76 /* Assets.xcassets */,
 				2A58F6C622625B750093FD76 /* LaunchScreen.storyboard */,
 				2A58F6C922625B750093FD76 /* Info.plist */,
+				2A58F6EB22625E220093FD76 /* MoviesViewController.swift */,
 			);
 			path = flix_app;
 			sourceTree = "<group>";
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A58F6C022625B730093FD76 /* ViewController.swift in Sources */,
 				2A58F6BE22625B730093FD76 /* AppDelegate.swift in Sources */,
+				2A58F6EC22625E220093FD76 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

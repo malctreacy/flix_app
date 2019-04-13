@@ -5,6 +5,7 @@
 //  Created by Malcolm Treacy on 4/13/19.
 //  Copyright © 2019 malctech. All rights reserved.
 //
+// This area is run the fist moment your application launches.
 
 import UIKit
 
